@@ -428,13 +428,11 @@ export default function Home() {
                         </span>
                       )}
                     </p>
-                    <div className="w-full flex flex-col gap-3 text-sm mt-4">
                       <Button className="w-full bg-gray-100 text-gray-800 hover:bg-gray-200 gap-2 py-2 px-4">
                         <Link href={`/products/${product.slug.current}`}>
                           View Details {"-->"}
                         </Link>
                       </Button>
-                    </div>
                   </div>
                 </CardFooter>
               </Card>
