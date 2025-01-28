@@ -395,7 +395,7 @@ export default function Home() {
             {getThisMonthProducts.map((product) => (
               <Card
                 key={product._id}
-                className="w-full sm:w-[272px] lg:w-[272px] h-[542px] bg-white shadow-lg rounded-lg overflow-hidden"
+                className="w-full sm:w-[272px] lg:w-[272px] h-[625px] bg-white shadow-lg rounded-lg overflow-hidden"
               >
                 <CardContent className="relative p-4">
                   <div className="w-full h-96 sm:h-[250px] lg:h-[300px] bg-white relative">
